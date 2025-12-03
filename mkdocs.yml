@@ -1,0 +1,62 @@
+site_name: Juice Shop Handbook
+site_url: https://tienthuan19.github.io/juice-shop-handbook/
+repo_url: https://github.com/tienthuan19/juice-shop-handbook
+repo_name: tienthuan19/juice-shop-handbook
+site_author: tienthuan19
+copyright: "Copyright &copy; 2025 - tienthuan19 - Cyber Secutiry"
+
+theme:
+  name: material
+  language: vi 
+  theme:
+  name: material
+  features:
+    # --- THANH MENU TRÊN CÙNG ---
+    - navigation.tabs          # Bật thanh menu ngang ở trên
+    - navigation.tabs.sticky   # Giữ thanh menu dính chặt khi cuộn xuống
+    
+    # --- THANH BÊN TRÁI (SIDEBAR) ---
+    - navigation.indexes       # Cho phép bấm vào tên thư mục để mở trang index
+    - navigation.sections      # Gom nhóm các mục con cho gọn
+    - navigation.expand        # Mở sẵn các mục con (nếu muốn)
+    
+    # --- THANH BÊN PHẢI (MỤC LỤC) ---
+    - toc.follow               # Mục lục bên phải chạy theo khi cuộn trang
+    
+    # --- TIỆN ÍCH KHÁC ---
+    - navigation.top           # Nút mũi tên quay về đầu trang
+    - content.code.copy        # Nút copy code
+  palette: 
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Darkmode
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Lightmode
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - admonition
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - awesome-pages  
+  
+  # - with-pdf: ... 
+
