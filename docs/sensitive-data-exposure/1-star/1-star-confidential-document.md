@@ -1,7 +1,7 @@
 # Confidential Document
 
 ## Why this challenge?
-
+The goal is to access a confidential document that should not be public. This challenge demonstrates the risk of **Sensitive Data Exposure** via unsecured directories.
 
 ## How did I analyze?
 * **Observation:** While exploring the "About Us" page, I clicked on a link to the "Terms of Use" (or similar legal documents). I noticed the URL pointed to a file storage path: `/ftp/legal.md`.
