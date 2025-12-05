@@ -1,6 +1,8 @@
 title: Table Of Challenges
 nav:
-  - index.md
-  - miscellaneous
-  - sensitive-data-exposure
-  - security-misconfiguration
+
+- index.md
+- miscellaneous
+- sensitive-data-exposure
+- security-misconfiguration
+- xss
