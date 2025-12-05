@@ -6,3 +6,4 @@ nav:
 - sensitive-data-exposure
 - security-misconfiguration
 - xss
+- improper-input-validation
