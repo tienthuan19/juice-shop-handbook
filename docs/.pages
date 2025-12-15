@@ -7,3 +7,4 @@ nav:
 - security-misconfiguration
 - xss
 - improper-input-validation
+- unvalidated-redirects
